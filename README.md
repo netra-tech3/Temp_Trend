@@ -9,7 +9,6 @@ This project aims to predict the average temperature based on various factors su
 - [Model Training](#model-training)
 - [Web Application](#web-application)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
