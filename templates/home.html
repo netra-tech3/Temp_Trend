@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp_Trend</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .hero-image {
+            background-image: url('https://source.unsplash.com/1600x900/?nature,climate');
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .btn-primary {
+            background-color: #4CAF50;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px">Welcome to Temp_Trend </h1>
+            <p>Climate Impact Prediction  of our planet</p>
+            <a href="/predict" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </div>
+
+    <div class="container content">
+        <h2>Explore Our Features</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/600x400/?forest,fire" class="card-img-top" alt="Predict Temperature">
+                    <div class="card-body">
+                        <h5 class="card-title">Predict Temperature</h5>
+                        <p class="card-text">Use our model to predict the average temperature based on various factors.</p>
+                        <a href="/predict" class="btn btn-primary">Predict Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/600x400/?data,climate" class="card-img-top" alt="Data Analysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Analysis</h5>
+                        <p class="card-text">Analyze the data used for our predictions and gain insights.</p>
+                        <a href="/data" class="btn btn-primary">View Data</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/600x400/?about,climate" class="card-img-top" alt="About Us">
+                    <div class="card-body">
+                        <h5 class="card-title">About Us</h5>
+                        <p class="card-text">Learn more about our mission and the technology behind our predictions.</p>
+                        <a href="/about" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <img src="https://source.unsplash.com/1600x400/?solutions,climate" class="card-img-top" alt="Solutions">
+                    <div class="card-body">
+                        <h5 class="card-title">Solutions</h5>
+                        <p class="card-text">Discover actionable steps to mitigate the impact of climate change.</p>
+                        <a href="/solutions" class="btn btn-primary">View Solutions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
